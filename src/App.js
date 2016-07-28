@@ -26,7 +26,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h1>React BabyApp</h1>
-        <CreateTimeLine createItem={this.createItem.bind(this)} />
+        <CreateTimeLine todos={this.state.todos} createItem={this.createItem.bind(this)} />
         <TimeLineList todos={this.state.todos} toggleItem={this.toggleItem.bind(this)} saveItem={this.saveItem.bind(this)} deleteItem={this.deleteItem.bind(this)} />
       </div>
     );
