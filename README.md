@@ -8,3 +8,9 @@
 
 
 
+
+HowTo:
+
+# Webserver starten mit
+node dev-server.js
+
